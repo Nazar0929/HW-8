@@ -1,0 +1,147 @@
+.header-text {
+    text-align: center;
+    color: chocolate;
+    background-color: black;
+    transition: font-size 0.3s ease;
+}
+.header-text:hover {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.head {
+    color: darkgoldenrod;
+    margin-bottom: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    transition: border-radius 0.3s ease;
+    transition: font-size 0.3s ease-in;
+    position: relative;
+}
+.head:hover {
+    background-color: darkgoldenrod;
+    color: black;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.head:active {
+    font-size: 18px;
+    background-color: black;
+    color: darkgoldenrod;
+}
+.homework {
+    position: absolute;
+    right: 900px;
+    background-color: rgb(0, 163, 155);
+    border-radius: 15px;
+}
+.homework:hover {
+    position: absolute;
+    top: -0.01px;
+    right: 950px;
+    background-color: blueviolet;
+    color: black;
+    border: 10px;
+}
+.head:hover + .homework {
+    display: block;
+}
+.head-caption:first-child {
+color: darkorange;
+}
+.head-caption:last-child {
+    color: darkcyan;
+}
+.head-caption:nth-child(3) {
+    color: blueviolet;
+}
+.head-caption:nth-child(2) {
+    color: rgb(226, 0, 90);
+}
+.head-caption:nth-child(4) {
+    color: rgb(85, 85, 85);
+}
+.head-caption:nth-child(5) {
+    color: rgb(18, 203, 30);
+}
+
+.head-text {
+    color: rgb(0, 141, 59);
+    font-size: 19px;
+    transition: font-size 0.2s ease;
+}
+.head-text:hover {
+    font-size: 25px;
+    color: brown;
+}
+.head-text:active {
+    color: rgb(234, 164, 0);
+}
+.head-description {
+    color: firebrick;
+    font-size: 17px;
+    transition: font-size 0.3s ease;
+}
+.head-description:hover {
+    font-size: 25px;
+    color: blueviolet;
+}
+.head-description:active {
+    font-size: 20px;
+    color: chocolate;
+}
+.text-body {
+    color: blueviolet;
+    font-size: 19px;
+    transition: font-size 0.4s ease;
+    background-color: black;
+}
+.text-body:hover {
+    font-size: 23px;
+    border-radius: 13px;
+
+}
+.text-body:first-child {
+color: rgb(184, 141, 0);
+background-color: rgb(85, 85, 85);
+}
+.text-body:last-child {
+    color: rgb(222, 129, 0);
+    background-color: darkmagenta;
+}
+.text-body:active {
+    background-color: darkred;
+    color: aliceblue;
+    font-size: 25px;
+}
+.head-title {
+    color: rgb(221, 88, 155);
+    font-size: 19px;
+    transition: font-size 0.3s ease;
+
+}
+.head-title:hover {
+    font-size: 23px;
+}
+.text-lesson {
+    font-size: 23px;
+    color: cadetblue;
+    transition: font-size 0.3s ease;
+}
+.text-lesson:hover {
+    font-size: 20px;
+}
+.text-description {
+    font-size: 18px;
+    color: chartreuse;
+    transition: font-size 0.3s ease;
+}
+.text-description:hover {
+    font-size: 23px;
+    color: aquamarine;
+
+}
+.text-description:active {
+    background-color: black
+}
